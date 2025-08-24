@@ -1,0 +1,286 @@
+#phone{
+    width: 756px;
+    height: 2017px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    background-color: #F3F5F4;
+}
+
+#top_bar{
+    width: 756px;
+    height: 585px;
+    background-color: #21262C;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+#autorenew{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 638px;
+    top: 120px;
+}
+
+#text{
+    font-size: 60px;
+    color: #FFFFFF;
+    position: relative;
+    top: 222px;
+    left: 34px;
+    margin: 0px;
+}
+
+#top_bottom{
+    width: 680px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    top: 255px;
+    left: 38px;
+}
+
+#notice{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 45px;
+    left: 23px;
+}
+
+#notice_text{
+    font-size: 26px;
+    color: #232426;
+    position: relative;
+    top: 5px;
+    left: 71px;
+    margin: 0px;
+}
+
+
+
+
+#middle_bar{
+    width: 680px;
+    height: 1140px;
+    background-color: #ffffff;
+    position: relative;
+    top: 35px;
+    left: 38px;
+    border-radius: 30px;
+}
+
+#place{
+    font-size: 40px;
+    color: #232426;
+    position: relative;
+    top: 43px;
+    left: 23px;
+    margin: 0px;
+}
+
+#open{
+    width: 119px;
+    height: 38px;
+    background-color: #00CB47;
+    position: relative;
+    top: 0px;
+    left: 295px;
+    border-radius: 30px;
+}
+
+#open_text{
+    font-size: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: px;
+    left: px;
+    margin: 0px;
+}
+
+#arrow{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 51px;
+    left: 600px;
+}
+
+
+#date_div{
+    width: 417px;
+    height: 40px;
+    position: relative;
+    top: 89px;
+    left: 132px;
+    display: flex;
+    align-items: center;
+}
+
+#date_arrow{
+    width: 40px;
+    height: 40px;
+}
+
+#date{
+    font-size: 40px;
+    text-align: center;
+    color: #232426;
+    margin: 0px;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+
+#week{
+    width: 528px;
+    height: 62px;
+    position: relative;
+    top: 174px;
+    left: 76px;
+    display: flex;
+}
+
+#link{
+    text-decoration: none;
+}
+
+#week_text{
+    width: 54px;
+    height: 62px;
+    font-size: 32px;
+    text-align: center;
+    color: #232426;
+    margin: 0px;
+    margin-right: 24px;
+}
+
+#line{
+    width: 528px;
+    height: 1px;
+    position: relative;
+    top: 156px;
+    left: 76px;
+    background-color: #E2E2E2;
+}
+
+#day_line{
+    width: 54px;
+    height: 3px;
+    position: relative;
+    top: 153px;
+    background-color: #243C68;
+}
+
+#choose_menu{
+    margin-top: 196px;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+}
+
+#spe{
+    width: 263px;
+    height: 80px;
+    background-color: #133C98;
+    border-radius: 50px;
+}
+
+#spe_text{
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    margin: 0px;
+}
+
+
+#brack{
+    width: 263px;
+    height: 80px;
+    margin-left: 23px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E0E0E0;
+    border-radius: 50px;
+}
+
+#brack_text{
+    font-size: 32px;
+    text-align: center;
+    color: #B9B9B9;
+    position: relative;
+    top: 15px;
+    margin: 0px;
+}
+
+#menu_bar{
+    width: 566px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+#menu_top{
+    height: 38px;
+    font-size: 31px;
+    font-weight: 600;
+    color: #383C48;
+    margin-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+
+#menu_list_left{
+    margin-left: 10px;
+    width: 109px;
+    text-align: center;
+}
+
+#menu_list_right{
+    width: 447px;
+    font-weight: 500;
+}
+
+
+
+
+#bottom_bar{
+    width: 756px;
+    height: 176px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 81px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;   
+    display: flex;
+}
+
+#bottom_list{
+    width: 54px;
+    height: 114px;
+    position: relative;
+    top: 30px;
+    margin-left: 117px;
+}
+
+#bottom_img{
+    width: 73px;
+}
+
+#bottom_text{
+    width: 72px;
+    height: 51px;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #BDBDBD;
+    text-align: center;
+}
+
