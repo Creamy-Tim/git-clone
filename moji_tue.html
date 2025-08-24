@@ -26,11 +26,11 @@
             </div>
             <img id="arrow" src="image/arrow.png">
             <div id="date_div">
-                <a id="link" href="moji_wed.html">
+                <a id="link" href="index.html">
                     <img id="date_arrow" style="transform: scaleX(-1);" src="image/arrow.png">
                 </a>
                 <div id="date"></div>
-                <a id="link" href="index.html">
+                <a id="link" href="moji_wed.html">
                     <img id="date_arrow" src="image/arrow.png">
                 </a>
             </div>
@@ -131,7 +131,6 @@
             const day = dayNames[now.getDay()];
 
             // 화면에 표시
-            document.getElementById("date").textContent = `${year}. ${month}. ${date+5-now.getDay()}`;
         }
    
         // 초기 업데이트 및 매초마다 갱신
